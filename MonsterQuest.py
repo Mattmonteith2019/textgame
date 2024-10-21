@@ -11,11 +11,17 @@ class Player:
         self.special = special
 
     # each class gets its own functions... so you can delete these for now and come back to them later.
+    # by delete these now... i mean leave them as pass and delete them from the bottom. Create the shell first, you can aedit them
+    # when you start your funcitons.
     def attack():
         pass
 
     def health():
         pass
+
+    # add another function for is_alive() here. This need to take in self, and return self.health > 0
+    # the return statement is basically a bool... it does a check, is the self.health greater than 0? if so return True, if not return False.
+    # this can be used in the main function as a check.
 
 
 # go ahead and delete these too
@@ -36,6 +42,8 @@ class Monster:
         # delete these and also from the init.
         self.strength = strength
         self.special = special
+
+        # go ahead and added the attack
 
 
 def generate_monster():
